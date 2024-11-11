@@ -8,7 +8,6 @@ public class Box extends JComponent {
     private final int value = 10;
     private int row;
     private int col;
-
     public Box(int width, int height) {
         this.setSize(width, height);
         this.setLocation(5, 5);
