@@ -41,7 +41,6 @@ public class LoginFrame extends JFrame {
                 JOptionPane.showMessageDialog(this, "Invalid Username or Password", "Error", JOptionPane.ERROR_MESSAGE);
             }
 
-            //todo: check login info
 
         });
         registerBtn.addActionListener(e -> {
@@ -56,7 +55,6 @@ public class LoginFrame extends JFrame {
                 JOptionPane.showMessageDialog(this, "Username already exists!", "Error", JOptionPane.ERROR_MESSAGE);
             }
 
-            //todo: check login info
 
         });
         resetBtn.addActionListener(e -> {
